@@ -1,0 +1,27 @@
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  width: 100%;
+}
+
+
+
+.nav-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 90%;
+  
+}
+
+.nav-item{
+  margin: 30px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 20px;
+  list-style-type:none;
+}

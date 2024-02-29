@@ -1,0 +1,53 @@
+.wonders-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-image: linear-gradient(to right,black,white);
+    
+
+  }
+  @media screen and (min-width: 575px) {
+    .wonders-container {
+      flex-direction: row;
+      width: 660px;
+      height: 170px;
+      margin: 15px;
+      height: 200px;
+      text-align: center;
+      padding: 30px;
+    }
+  }
+
+
+  .wonder-image {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 170px;
+  }
+  
+  @media screen and (min-width: 575px) {
+    .wonder-image {
+      width: 40%;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      margin-right: 15px;
+    }
+  }
+  
+  .wonder-info {
+    font-family: 'Roboto';
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 575px) {
+    .wonder-info {
+      width: 60%;
+    }
+  }
+
+  .item-title{
+    font-weight: 300;
+    text-decoration: underline;
+
+  }

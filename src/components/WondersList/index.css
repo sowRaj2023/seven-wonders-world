@@ -1,0 +1,31 @@
+.blog-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #bfbfb8;
+    margin: 0px;
+  }
+
+  .wonder-heading{
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch:ultra-condensed;
+    margin: 30px;
+    text-decoration: underline;
+
+  }
+
+  .wonder-description{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight:200;
+    font-style: italic;
+    font-stretch:ultra-condensed;
+    color:blue;
+    text-shadow: #bfbfb8;
+    text-align: center;
+  }
